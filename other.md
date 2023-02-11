@@ -18,7 +18,7 @@ $f_n$ = negative features
 https://jdhao.github.io/2017/03/13/some_loss_and_explanations/
 * PT: Classification
 * ||desired_prob_dist - pred_prob_dist||  (desired == true?)
-### eq:  
+### eq [k=2]:  
 $cross entropy loss = -y\log(p)-(1-y)\log(1-p)$    
 $y$ = sample label  
 $p$ = pred. probability of sample belonging to class 1  
