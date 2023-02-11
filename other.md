@@ -14,6 +14,9 @@ $f_a$ = anchor features
 $f_p$ = positive features  
 $f_n$ = negative features  
 
+https://jdhao.github.io/2017/03/13/some_loss_and_explanations/
+* same as above
+
 # cross_entropy_loss
 https://jdhao.github.io/2017/03/13/some_loss_and_explanations/
 * PT: Classification
