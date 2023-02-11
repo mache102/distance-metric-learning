@@ -18,7 +18,7 @@ imgs -> vec representations
 $E = \frac{1}{2}yd^{2}+(1-y)max(\alpha-d, 0)$
 
 2. jdhao
-"Contrastive Loss is often used in image retrieval tasks to learn discriminative features for images. During training, an image pair is fed into the model with their ground truth relationship $y$: $y$ equals 1 if the two images are similar and 0 otherwise. The loss function for a single pair is:"
+"Contrastive Loss is often used in image retrieval tasks to learn discriminative features for images. During training, an image pair is fed into the model with their ground truth relationship $y$: $y$ equals 1 if the two images are similar and 0 otherwise. The loss function for a single pair is:"  
 $E = yd^{2}+(1-y)max(\alpha-d, 0)^{2}$
 
 ---
