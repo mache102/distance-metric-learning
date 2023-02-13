@@ -48,3 +48,5 @@ keras siamese contrastive
 ### Papers
 * https://arxiv.org/pdf/2203.11075.pdf  
 dense siamese
+* https://arxiv.org/pdf/2207.01472.pdf  
+Deep Contrastive One-Class Time Series Anomaly Detection
