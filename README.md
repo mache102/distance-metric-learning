@@ -50,5 +50,9 @@ keras siamese contrastive
 dense siamese
 * https://arxiv.org/pdf/2207.01472.pdf  
 Deep Contrastive One-Class Time Series Anomaly Detection  
-Notes:  
+**Notes:**   
 representation & reconstructed representation = pos pair
+* https://arxiv.org/pdf/2208.06616.pdf  
+**Notes:**  
+  - Img based CL methods may not work on time series data
+    1. temporal dependencies
