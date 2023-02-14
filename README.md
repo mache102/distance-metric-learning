@@ -55,4 +55,5 @@ representation & reconstructed representation = pos pair
 * https://arxiv.org/pdf/2208.06616.pdf  
 **Notes:**  
   - Img based CL methods may not work on time series data
-    1. temporal dependencies
+    1. temporal dependencies (inefficiency)
+    2. img augmentation not suited for time series
