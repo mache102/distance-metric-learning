@@ -57,4 +57,7 @@ representation & reconstructed representation = pos pair
   - Img based CL methods may not work on time series data
     1. temporal dependencies (inefficiency)
     2. img augmentation not suited for time series
-  - Solution: **strong & weak TS augmentation**
+  - Solution: 
+    1. **strong & weak TS augmentation**
+    2. strong: tough cross-view prediction task in the next module; robust representation
+    3. weak: small signal variations w/o affecting characteristics; minor chnges
