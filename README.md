@@ -24,6 +24,21 @@ $E = yd^{2}+(1-y)max(\alpha-d, 0)^{2}$
 3. bekuzarov  
 $L(W, (y, \overrightarrow{X_1}, \overrightarrow{X_2})^i) = yL_S(D^i_W)+(1-y)L_D(D^i_W)$
 
+4. keras CL implementation
+```
+def contrastive_loss(y_true, y_pred):
+
+        square_pred = tf.math.square(y_pred)
+        margin_square = tf.math.square(tf.math.maximum(margin - (y_pred), 0))
+        return tf.math.reduce_mean(
+            (1 - y_true) * square_pred + (y_true) * margin_square
+        )
+    return contrastive_loss
+```
+Notes:
+* reduce_mean == mean
+*   
+
 ---
 Where  
 $y$ equals 1 if the two images are similar and 0 otherwise  
