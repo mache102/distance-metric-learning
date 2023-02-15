@@ -61,3 +61,18 @@ representation & reconstructed representation = pos pair
     1. **strong & weak TS augmentation**
     2. strong: tough cross-view prediction task in the next module; robust representation
     3. weak: small signal variations w/o affecting characteristics; minor chnges
+
+## Implementation  
+Summaries of sample contrastive learning implementations.  
+Importing comes prior to the first step.  
+
+Glossary:  
+TVT = train/val/test  
+[O] = optional
+### 1. Siamese Network CL, CNN
+- Steps:
+  1. Load data; astype to proper; TVT split.
+  2. [O] Visualize similar and different pairs.
+  3. Build, compile, and fit a Siamese Network.
+    * Implement contrastive loss during compilation.
+  5. Plot result metrics.
