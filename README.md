@@ -74,5 +74,5 @@ TVT = train/val/test
   1. Load data; astype to proper; TVT split.
   2. [O] Visualize similar and different pairs.
   3. Build, compile, and fit a Siamese Network.
-    * Implement contrastive loss during compilation.
+      * Implement contrastive loss during compilation.
   5. Plot result metrics.
