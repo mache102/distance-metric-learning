@@ -26,7 +26,10 @@ $L(W, (y, \overrightarrow{X_1}, \overrightarrow{X_2})^i) = yL_S(D^i_W)+(1-y)L_D(
 
 4. keras CL implementation
 ```
-def contrastive_loss(y_true, y_pred):
+def loss(margin=1):
+    # Contrastive loss = mean( (1-true_value) * square(prediction) +
+    #                         true_value * square( max(margin-prediction, 0) ))
+    def contrastive_loss(y_true, y_pred):
 
         square_pred = tf.math.square(y_pred)
         margin_square = tf.math.square(tf.math.maximum(margin - (y_pred), 0))
