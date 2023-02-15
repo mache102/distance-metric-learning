@@ -77,8 +77,13 @@ representation & reconstructed representation = pos pair
     2. img augmentation not suited for time series
   - Solution: 
     1. **strong & weak TS augmentation**
-    2. strong: tough cross-view prediction task in the next module; robust representation
-    3. weak: small signal variations w/o affecting characteristics; minor chnges
+        * strong: tough cross-view prediction task in the next module; robust representation
+        * weak: small signal variations w/o affecting characteristics; minor changes
+    2. transformer in Temporal Contrasting module
+        * attach the classification token c to the input
+        * pass it through the different Transformer model layers
+        * split the token from the output modified features
+        * ... & use it in the next Contextual Contrasting module. 
 
 ## Implementation  
 Summaries of sample contrastive learning implementations.  
