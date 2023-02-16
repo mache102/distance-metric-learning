@@ -1,4 +1,4 @@
-# contrastive_learning
+# contrastive_learning_notes
 Contrastive learning, contrastive loss, siamese networks
 
 1. Contrastive learning
