@@ -72,6 +72,7 @@ Deep Contrastive One-Class Time Series Anomaly Detection
 representation & reconstructed representation = pos pair
 * https://arxiv.org/pdf/2208.06616.pdf  
 **Notes:**  
+  - CA-TCC implementation https://github.com/emadeldeen24/CA-TCC
   - Img based CL methods may not work on time series data
     1. temporal dependencies (inefficiency)
     2. img augmentation not suited for time series
