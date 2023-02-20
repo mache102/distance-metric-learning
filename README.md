@@ -84,6 +84,11 @@ representation & reconstructed representation = pos pair
         * pass it through the different Transformer model layers
         * split the token from the output modified features
         * ... & use it in the next Contextual Contrasting module. 
+    3. other
+        * strong to pred weak future timesteps, vice versa
+        * autoregressive = transformer
+            * multihead attention, mlp
+            * 
 
 ## Implementation  
 Summaries of sample contrastive learning implementations.  
