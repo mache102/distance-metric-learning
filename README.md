@@ -64,6 +64,10 @@ siamese network pairs, example
 keras siamese contrastive 
 
 ### Papers
+* https://arxiv.org/pdf/2004.11362.pdf  
+supervised CL SupCon  
+    * TF https://github.com/sayakpaul/Supervised-Contrastive-Learning-in-TensorFlow-2 
+    * PyTorch https://github.com/HobbitLong/SupContrast
 * https://arxiv.org/pdf/2203.11075.pdf  
 dense siamese
 * https://arxiv.org/pdf/2207.01472.pdf  
