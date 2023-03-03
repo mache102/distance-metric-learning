@@ -109,3 +109,4 @@ TVT = train/val/test
   3. Build, compile, and fit a Siamese Network.
       * Implement contrastive loss during compilation.
   5. Plot result metrics.
+https://colab.research.google.com/drive/1B7OCVZ8_hfWA6SUU78ipeF8J0aQ_BeQ4?usp=sharing
