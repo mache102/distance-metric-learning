@@ -13,7 +13,7 @@ A != B
 
 imgs -> vec representations
 
-### ---Defs---
+### Defs
 1. gowrishankar  
 $E = \frac{1}{2}yd^{2}+(1-y)max(\alpha-d, 0)$
 
