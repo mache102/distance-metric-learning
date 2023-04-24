@@ -1,4 +1,4 @@
-# contrastive_learning_notes
+## Contrastive Loss
 Contrastive learning, contrastive loss, siamese networks
 
 1. Contrastive learning
@@ -13,7 +13,7 @@ A != B
 
 imgs -> vec representations
 
-## ---Defs---
+### ---Defs---
 1. gowrishankar  
 $E = \frac{1}{2}yd^{2}+(1-y)max(\alpha-d, 0)$
 
@@ -94,19 +94,3 @@ representation & reconstructed representation = pos pair
         * autoregressive = transformer
             * multihead attention, mlp
             * 
-
-## Implementation  
-Summaries of sample contrastive learning implementations.  
-Importing comes prior to the first step.  
-
-Glossary:  
-TVT = train/val/test  
-[O] = optional
-### 1. Siamese Network CL, CNN
-- Steps:
-  1. Load data; astype to proper; TVT split.
-  2. [O] Visualize similar and different pairs.
-  3. Build, compile, and fit a Siamese Network.
-      * Implement contrastive loss during compilation.
-  5. Plot result metrics.
-https://colab.research.google.com/drive/1B7OCVZ8_hfWA6SUU78ipeF8J0aQ_BeQ4?usp=sharing
